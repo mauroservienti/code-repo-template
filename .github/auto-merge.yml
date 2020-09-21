@@ -6,7 +6,7 @@ rules:
     OWNER: 1
 - requiredAuthorRole: OWNER
   requiredLabels:
-    - auto-merge
+    - auto merge
   
 # must be enabled as a merge option in the repository settings
 mergeMethod: squash
