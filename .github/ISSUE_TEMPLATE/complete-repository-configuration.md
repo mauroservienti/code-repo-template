@@ -4,7 +4,6 @@ about: Describe the work required to complete the repository configuration
 title: Complete repository configuration
 labels: ''
 assignees: mauroservienti
-
 ---
 
 ### Content
@@ -12,6 +11,7 @@ assignees: mauroservienti
 - [ ] Source code first commit in `src` or remove/adjust dependabot config for `src`
 - [ ] assets: icon
 - [ ] readme
+- [ ] Delete `complete-repository-configuration.md` issue template
 
 ### Build support
 
@@ -25,4 +25,4 @@ assignees: mauroservienti
 - [ ] disable Wikis
 - [ ] disable Projects
 - [ ] Automatically delete head branches
-- [ ] Create the `auto merge` label
+- [ ] Add `DEPENDABOTAUTOMERGE` secret
