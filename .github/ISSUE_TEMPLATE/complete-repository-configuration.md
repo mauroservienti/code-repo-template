@@ -25,4 +25,8 @@ assignees: mauroservienti
 - [ ] disable Wikis
 - [ ] disable Projects
 - [ ] Automatically delete head branches
+- [ ] Select `Allow merge commits`
+- [ ] Select `Allow squash merging`
+- [ ] Select `Allow rebase merging`
+- [ ] Select `Allow auto-merge Beta`
 - [ ] Add `DEPENDABOTAUTOMERGE` secret
