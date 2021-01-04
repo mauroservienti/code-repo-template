@@ -4,6 +4,8 @@ using static SimpleExec.Command;
 
 internal class Program
 {
+
+    // begin-snippet: default-build-script
     public static void Main(string[] args)
     {
         var sdk = new DotnetSdkManager();
@@ -20,4 +22,5 @@ internal class Program
         
         RunTargetsAndExit(args);
     }
+    // end-snippet
 }
