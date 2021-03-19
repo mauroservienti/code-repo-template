@@ -28,5 +28,5 @@ assignees: mauroservienti
 - [ ] Select `Allow merge commits`
 - [ ] Select `Allow squash merging`
 - [ ] Select `Allow rebase merging`
-- [ ] Select `Allow auto-merge Beta`
+- [ ] Select `Allow auto-merge`
 - [ ] Add `DEPENDABOTAUTOMERGE` secret
