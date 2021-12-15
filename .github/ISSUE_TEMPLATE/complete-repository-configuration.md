@@ -13,10 +13,10 @@ assignees: mauroservienti
 - [ ] readme
 - [ ] Delete `complete-repository-configuration.md` issue template
 
-### Build support
+### CI
 
-- [ ] AppVeyor
-   - [ ] Deployment: Ensure Nuget API Key is compliant
+- [ ] Complete push to MyGet configuration
+- [ ] Add `MYGET_API_KEY` secret
 
 ### Repository settings:
 
@@ -29,4 +29,3 @@ assignees: mauroservienti
 - [ ] Select `Allow squash merging`
 - [ ] Select `Allow rebase merging`
 - [ ] Select `Allow auto-merge`
-- [ ] Add `DEPENDABOTAUTOMERGE` secret
