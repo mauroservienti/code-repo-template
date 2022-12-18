@@ -11,6 +11,7 @@ assignees: mauroservienti
 - [ ] Source code first commit in `src` or remove/adjust dependabot config for `src`
 - [ ] assets: icon
 - [ ] readme
+- [ ] fix the MyGet link in the `package-release.md` issue template
 - [ ] Delete `complete-repository-configuration.md` issue template
 
 ### CI
