@@ -16,7 +16,7 @@ assignees: mauroservienti
 
 ### CI
 
-- [ ] Complete push to MyGet configuration
+- [ ] Complete push to Feedz.io configuration
 - [ ] Add `FEEDZ_API_KEY` secret
 
 ### Repository settings:
