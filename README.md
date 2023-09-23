@@ -6,4 +6,4 @@ This template contains the following:
 - Dependabot GitHub Action to enable auto-merge for Dependabot PRs
 - [MarkdownSnippets](https://github.com/SimonCropp/MarkdownSnippets) GitHub Action
 - An issue template to complete the repository configuration once the new repository has been generated
-- CI GitHub Actions to build, run tests, and push tags to MyGet
+- CI GitHub Actions to build, run tests, and push tags to Feedz.io
