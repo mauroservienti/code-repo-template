@@ -11,13 +11,13 @@ assignees: mauroservienti
 - [ ] Source code first commit in `src` or remove/adjust dependabot config for `src`
 - [ ] assets: icon
 - [ ] readme
-- [ ] fix the MyGet link in the `package-release.md` issue template
+- [ ] fix the Feedz.io link in the `package-release.md` issue template
 - [ ] Delete `complete-repository-configuration.md` issue template
 
 ### CI
 
 - [ ] Complete push to MyGet configuration
-- [ ] Add `MYGET_API_KEY` secret
+- [ ] Add `FEEDZ_API_KEY` secret
 
 ### Repository settings:
 
