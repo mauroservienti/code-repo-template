@@ -7,3 +7,4 @@ This template contains the following:
 - [MarkdownSnippets](https://github.com/SimonCropp/MarkdownSnippets) GitHub Action
 - An issue template to complete the repository configuration once the new repository has been generated
 - CI GitHub Actions to build, run tests, and push tags to Feedz.io
+- The included sample project defines item groups to produce NuGet packages
