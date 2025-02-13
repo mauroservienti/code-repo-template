@@ -68,7 +68,7 @@ jobs:
     needs: build
     name: Release to Nuget.org
     if: github.event_name == 'release' && github.event.action == 'created'
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4.3.0
