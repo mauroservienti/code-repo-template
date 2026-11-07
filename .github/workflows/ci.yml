@@ -69,6 +69,9 @@ jobs:
     name: Release to Nuget.org
     if: github.event_name == 'release' && github.event.action == 'created'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - name: Setup .NET
         uses: actions/setup-dotnet@v6.1.0
@@ -79,7 +82,12 @@ jobs:
         with:
           name: nuget-packages
           path: nugets/
+      - name: NuGet login
+        id: nuget-login
+        uses: NuGet/login@v1.2.0
+        with:
+          user: ${{ secrets.NUGET_USER }}
       - name: Push package to NuGet.org
-        run: dotnet nuget push ./nugets/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }}
+        run: dotnet nuget push ./nugets/*.nupkg --api-key ${{ steps.nuget-login.outputs.NUGET_API_KEY }}
       - name: Push symbols to NuGet.org
-        run: dotnet nuget push ./nugets/*.snupkg --api-key ${{ secrets.NUGET_API_KEY }}
+        run: dotnet nuget push ./nugets/*.snupkg --api-key ${{ steps.nuget-login.outputs.NUGET_API_KEY }}

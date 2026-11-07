@@ -19,6 +19,15 @@ assignees: mauroservienti
 - [ ] Complete push to Feedz.io configuration
 - [ ] Add `FEEDZ_API_KEY` secret
 
+#### NuGet.org trusted publishing
+
+- [ ] On NuGet.org, go to your username > `Trusted Publishing` and add a GitHub Actions policy with:
+  - Repository owner: the owner of this repository
+  - Repository: the name of this repository
+  - Workflow file: `ci.yml`
+  - Environment: leave empty
+- [ ] Add `NUGET_USER` secret, set to the NuGet.org username (profile name, not the email address) that owns the policy
+
 ### Repository settings:
 
 - [ ] assets: repo image
