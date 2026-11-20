@@ -11,7 +11,7 @@ assignees: mauroservienti
 - [ ] Source code first commit in `src` or remove/adjust dependabot config for `src`
 - [ ] assets: icon
 - [ ] readme
-- [ ] fix the Feedz.io link in the `package-release.md` issue template
+- [ ] replace `<PackageId>` in the NuGet.org link of the `package-release.md` issue template
 - [ ] Delete `complete-repository-configuration.md` issue template
 
 ### CI
@@ -26,6 +26,7 @@ assignees: mauroservienti
   - Repository: the name of this repository
   - Workflow file: `ci.yml`
   - Environment: leave empty
+  - Packages: the package ID (or `PackageId*` to cover sibling packages), with both scopes selected: pushing new packages, for the first release, and new versions
 - [ ] Add `NUGET_USER` secret, set to the NuGet.org username (profile name, not the email address) that owns the policy
 
 ### Repository settings:
